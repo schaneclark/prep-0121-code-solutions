@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    * {
+      /* box-sizing: border-box; */
+    }
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .column {
+      max-width: 32%;
+      background-color: darkseagreen;
+      padding: 5px;
+      border-radius: 3%;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 3%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit officiis enim inventore ratione soluta illum
+          consectetur temporibus hic impedit molestias possimus beatae voluptas repellendus, iusto quidem sit error suscipit
+          exercitationem?
+        </p>
+        <img src="images/left-image.jpg" alt="Nudist family goes camping">
+      </div>
+      <div class="column">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit officiis enim inventore ratione soluta illum
+          consectetur temporibus hic impedit molestias possimus beatae voluptas repellendus, iusto quidem sit error suscipit
+          exercitationem?
+        </p>
+        <img src="images/center-image.jpg" alt="Soldier shows off his long poll to local woman">
+      </div>
+      <div class="column">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit officiis enim inventore ratione soluta illum
+          consectetur temporibus hic impedit molestias possimus beatae voluptas repellendus, iusto quidem sit error suscipit
+          exercitationem?
+        </p>
+        <img src="images/right-image.jpg" alt="Man prepares to kill his unsuspecting family">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
