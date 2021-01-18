@@ -15,9 +15,9 @@ console.log("convertHoursToMinutes Exercise: " + hoursToMinsResult);
 function personalizedGreeting(name) {
  return "Hello " + name + "!";
 }
+
 var greeting = personalizedGreeting("Cody");
 console.log("personalizedGreeting Example: " + greeting);
-
 
 function returnDatatype(data) {
   return typeof data;
@@ -29,6 +29,7 @@ console.log("returnDatatype Exercise: " + datatype);
 function addAndMultiplyBy5(num1, num2) {
   return (num1 + num2) * 5;
 }
+
 var addAndMultBy5Result = addAndMultiplyBy5(10,5);
 console.log("addAndMultiplyBy5 Exercise: " + addAndMultBy5Result);
 
